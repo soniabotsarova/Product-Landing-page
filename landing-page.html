@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html land="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://kit.fontawesome.com/3da1a747b2.js"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@100&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/simple-lightbox.min.css">
+  <link rel="stylesheet" href="css/landing-page.css">
+  <title>Film Posters</title>
+</head>
+
+<body id="home">
+  <nav class="navbar">
+    <div class="container">
+      <h1 class="logo">
+        Organic Jojoba Oil</h1>
+        <ul class="nav">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+        </ul>
+      </div>
+    </nav>  
+    
+    <!-- Showcase-->
+    <section class="section-a">
+      <div class="container">
+        <div>
+          <h1>Drops full of Self Love</h1>
+          <p> 100% organic, cold-pressed, unrefined Jojoba Oil great for soothing dry, irritated skin.
+            Apply a few drops of jojoba oil to freshly cleansed skin and improve your skin's texture, tone, and elasticity.</p>
+            <a href="#" class="btn">Read more</a>
+          </div>
+          <img src="img/main.webp" alt="">
+        </div>
+      </section>
+      
+      <!-- Overlay Text -->
+      <section id="about" class="section-b">
+        <div class="overlay">
+          <div class="section-b-inner">
+            <h3>Sustainable & Ethically Sourced</h3>
+            <h2>Sourcing any ingredient ethically and transparently is complicated. But we are committed to providing you a clean and ethical product.</h2>
+          </div>
+        </div>
+      </section>
+      
+      <!--Gallery-->
+      <section class="section-c">
+        <div class="gallery">
+          <a href="img/grid-1.webp" class="big" id="image-topleft"><img src="img/grid-1.webp" alt=""></a>
+          <a href="img/grid-2.webp" class="big"><img src="img/grid-2.webp" alt=""></a>
+          <a href="img/grid-3.webp" class="big"><img src="img/grid-3.webp" alt=""></a>
+          <a href="img/grid-4.jpg" class="big"><img src="img/grid-4.jpg" alt=""></a>
+          <a href="img/grid-5.jpg" class="big"><img src="img/grid-5.jpg"></a>
+        </div>
+      </section>
+      
+      <!-- Footer -->
+      <footer class="section-footer">
+        <div class="container">
+          <div>
+            <h2>Follow us on social media</h2>
+            <a href="http://twitter.com">
+              <i class="fab fa-twitter fa-2x"></i>
+              <a href="http://facebook.com">
+                <i class="fab fa-facebook fa-2x"></i>
+                <a href="http://youtube.com">
+                  <i class="fab fa-youtube fa-2x"></i>
+                </a>
+              </div>
+              <div>
+                <h3>Company Info</h3>
+                <ul>
+                  <li><a href="#">All products</a></li>
+                  <li><a href="#">About us</a></li>
+                  <li><a href="#">Privacy Policy</a></li>
+                  <li><a href="#">Terms of Service</a></li>
+                </ul>
+              </div>
+              <div>
+                <h3>Blog Posts</h3>
+                <ul>
+                  <li><a href="#">Lorem ipsum dolor</a></li>
+                  <li><a href="#">Lorem ipsum dolor</a></li>
+                  <li><a href="#">Lorem ipsum dolor</a></li>
+                  <li><a href="#">Lorem ipsum dolor</a></li>
+                </ul>
+              </div>
+              <div>
+                <h3>Sign-up</h3>
+                <p>Get 10% off your first order</p>
+                <form name="email-form" method="POST" data-netlify="true">
+                  <div class="email-form">
+                    <span class="form-control-wrap">
+                      <input 
+                      type="email" 
+                      name="email" 
+                      id="email" 
+                      size="40" 
+                      class="form-control"
+                      placeholder="Email">
+                    </span>
+                    <button type="submit" class="form-control submit">
+                      <i class="fas fa-chevron-right"></i>
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </footer>
+          
+          <script
+          src="https://code.jquery.com/jquery-2.2.4.min.js"
+          integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+          crossorigin="anonymous"></script>
+          <script src="js/simple-lightbox.min.js"></script>
+          <script>
+            $(function() {
+              const $gallery = $('.gallery a').simpleLightbox();
+            })
+          </script>
+          
+        </body>
+        
+        </html>
